@@ -1,0 +1,73 @@
+
+.header{
+  text-align: right;
+  background-color: rgb(48, 48, 48);
+  color: antiquewhite;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px ;
+  border-top-left-radius: 1cm;
+  border-top-right-radius: 1cm;
+  
+}
+.type{
+  text-align: right;
+  flex: 1 1 auto;
+  padding-right: 8px;
+  padding-top: 8px;
+  color: aliceblue;
+  size: 8px;
+  
+}
+img{
+  padding-top: 10px;
+  height: 30px;
+  width: 30px;
+}
+.cost {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: left;
+  padding-top: 8px;
+  color: rgb(145, 145, 145);
+}
+.arz{
+  display: flex;
+  flex-direction:row-reverse;
+  font-size: 15px;
+  color: rgb(48, 46, 51);
+  border-style: solid;
+  background-color: rgb(66, 66, 66);
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px ;
+  border-style: solid;
+  border-left-style: outset;
+  padding-right: 20px;
+  border-radius: 6px;
+}
+.arz:nth-child(even){
+  border-color: rgb(48, 48, 48) rgb(48, 48, 48) rgb(48, 48, 48)  rgb(234, 67, 61);
+ }
+ .arz:nth-child(odd){
+  border-color: rgb(48, 48, 48) rgb(48, 48, 48) rgb(48, 48, 48) rgb(77, 177, 81);
+ }
+ .arz:hover{
+  background: #5a5a5a!important;
+}
+.money{
+  color: aliceblue;
+  background-color: #383836;
+} 
+.cost-s{
+  color:rgb(189, 143, 6);
+  padding-right: 10px;
+}
+.pos{
+  padding-right: 0px;
+  text-align: right;
+  -ms-flex-item-align: start;
+}
